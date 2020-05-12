@@ -8,14 +8,15 @@ The Trusted Sender Score of a domain is an assessment of a domain's email behavi
  
  `GETs https://zuluedm.com/api/domain/zululabs.com`
 
-`returns [ { "ts_domain_id": "8426", "ts_score_id": "327", "ts_score": "9.40", "ts_status": "1", "id": "1", "domain_status": "Verified", "domain_description": "This domain is protected and has their email configured to respect subscribers.", "status_color": "#4caf50" }  `
+`returns [ { "ts_domain_id": "8426", "ts_score_id": "327", "ts_score": "9.40", "ts_status": "1", "id": "1", "domain_status": "Verified", "domain_description": "This domain is protected and has their email configured to respect subscribers.", "status_color": "#4caf50" }`
 
  
  ### Install
  Simply clone the repository 
- `git clone https://github.com/zululabs/trusted-sender-score-api-examples.git'
+ `git clone https://github.com/zululabs/trusted-sender-score-api-examples.git`
  
- Run `composer update`
+ Run 
+ `composer update`
  
  ### links 
  - https://trustedsenderscore.com
