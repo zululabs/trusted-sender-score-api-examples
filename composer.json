@@ -1,0 +1,28 @@
+{
+  "name": "zululabs/trusted-sender-score-api-examples",
+  "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+  "homepage": "http://github.com/zululabs/trusted-sender-score-api-examples",
+  "license": "MIT",
+  "keywords": ["trusted sender score","trusted sender score api examples","email","email authentication","email reputation","http", "curl", "rest", "restful", "api", "requests"],
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Zulu Labs Dev Team",
+      "email": "devteam@ind.zululabs.com",
+      "homepage": "https://trustedsenderscore.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "nategood/httpful": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Httpful": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
